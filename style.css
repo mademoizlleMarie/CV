@@ -2,18 +2,23 @@ body
 {
     display: flex;
     justify-content: center;
-    height: 1200px;
+    height: auto;
+    font-size: small;
 }
 section
 {
     width: 700px;
     border: 1px solid black;
+    padding-bottom: 10px;
 }
 img{
     justify-content: center;
     width : 150px; height : 150px;
     border: none;
     border-radius : 75px;
+}
+h1{
+    text-transform: uppercase;
 }
 .sectionleft{
     display: flex;
@@ -52,7 +57,7 @@ img{
 }
 #loisirs{
     margin-top: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #loisirs div{
     display: flex;
@@ -61,27 +66,23 @@ img{
 #loisirs div >svg{
     border: 1px solid black;
     padding: 8px;
-    border-radius: 75px;
+    border-radius: 50px;
 }
 
-
 .sectionright{
-    padding: 0 40px 0 40px;
+    padding: 0 40px 30px 40px;
     display: flex;
     flex-direction: column;
 }
-.sectionright div
-{
-    height: auto;
-    margin: 5px 0 5px 0;
-    justify-content: space-evenly;
-}
 
-.sectionright div:nth-child(1) hr{
+.sectionright header hr{
     border: none;
     border-top: 1px solid #F57C00;
     margin: 0;
     width: 50px;
+}
+.sectionright div h1{
+    margin-bottom: 0;
 }
 .sectionright div:nth-child(2) hr{
     border: none;
@@ -98,6 +99,48 @@ img{
     border-top: 1px solid #F57C00;
     margin: 2px;
 }
+.sectionright svg{
+    margin-right: 12px;
+}
+
 .coloruni{
     color: #F57C00;
+}
+header{
+    padding: 30px 0 30px 0;
+}
+header h1{
+     margin-bottom: 0;
+     font-size: 3em;
+}
+header h3{
+    margin-top: 0;
+
+}
+.sectionright svg{
+    color: #F57C00;
+}
+.emploi {
+    display: flex;
+    margin-top: 15px;
+}
+.emploi .date{
+    display: flex;
+    width: 33%;
+    padding-top: 20px;
+}
+.emploi .detailemploi{
+    width: 67%;
+    text-align: justify;
+}
+.emploi .date div {
+    margin-left: 5px;
+}
+.recommandation p{
+    margin: 0;
+}
+.recommandationGlobal{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
