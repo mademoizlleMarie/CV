@@ -1,0 +1,17 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+}
+section
+{
+    width: 700px;
+    border: 1px solid black;
+}
+img{
+    justify-content: center;
+    width : 150px; height : 150px;
+    border: none;
+    border-radius : 75px;
+}
