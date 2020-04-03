@@ -63,3 +63,16 @@ img{
     padding: 8px;
     border-radius: 75px;
 }
+
+
+.sectionright{
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionright div
+{
+    height: auto;
+    margin: 5px 0 5px 0;
+    justify-content: space-evenly;
+}
