@@ -102,6 +102,9 @@ h1{
 .sectionright svg{
     margin-right: 12px;
 }
+.sectionright .bordure{
+    border-bottom: 1px solid #F57C00;
+}
 
 .coloruni{
     color: #F57C00;
@@ -154,7 +157,7 @@ header h3{
         height: auto;
         font-size: small;
         flex-direction: column;
-        width: auto;
+
     }
 
     section {
@@ -266,6 +269,9 @@ header h3{
 
     .sectionright svg {
         margin-right: 12px;
+    }
+    .sectionright .bordure{
+        border-bottom: 1px solid #8BC34A;
     }
 
     .coloruni {
