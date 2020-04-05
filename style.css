@@ -1,9 +1,18 @@
+@font-face{
+    font-family: 'Actionman';
+    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot') format('eot');
+    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
+    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
+    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.svg#webfont') format('svg');
+}
+
 body
 {
     display: flex;
     justify-content: center;
     height: auto;
     font-size: small;
+    font-family: 'Actionman',Arial, sans-serif;
 }
 section
 {
@@ -24,11 +33,11 @@ h1{
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: #F57C00;
+    background-color: #4DB6AC;
 }
 
 .sectionleft H1{
-    color: #F57C00;
+    color: #4DB6AC;
     background-color: #424242;
     text-align: center;
 }
@@ -77,7 +86,7 @@ h1{
 
 .sectionright header hr{
     border: none;
-    border-top: 1px solid #F57C00;
+    border-top: 1px solid #4DB6AC;
     margin: 0;
     width: 50px;
 }
@@ -86,28 +95,28 @@ h1{
 }
 .sectionright div:nth-child(2) hr{
     border: none;
-    border-top: 1px solid #F57C00;
+    border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
 .sectionright div:nth-child(3) hr{
     border: none;
-    border-top: 1px solid #F57C00;
+    border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
 .sectionright div:nth-child(4) hr{
     border: none;
-    border-top: 1px solid #F57C00;
+    border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
 .sectionright svg{
     margin-right: 12px;
 }
 .sectionright .bordure{
-    border-bottom: 1px solid #F57C00;
+    border-bottom: 1px solid #4DB6AC;
 }
 
 .coloruni{
-    color: #F57C00;
+    color: #4DB6AC;
 }
 header{
     padding: 30px 0 30px 0;
@@ -121,7 +130,7 @@ header h3{
 
 }
 .sectionright svg{
-    color: #F57C00;
+    color: #4DB6AC;
 }
 .emploi {
     display: flex;
@@ -157,7 +166,7 @@ header h3{
         height: auto;
         font-size: small;
         flex-direction: column;
-
+        font-family: 'Actionman',Arial, sans-serif;
     }
 
     section {
@@ -181,12 +190,12 @@ header h3{
     .sectionleft {
         display: flex;
         flex-direction: column;
-        background-color: #8BC34A;
+        background-color: #4DB6AC;
         width: auto;
     }
 
     .sectionleft H1 {
-        color: #8BC34A;
+        color: #4DB6AC;
         background-color: #424242;
         text-align: center;
     }
@@ -240,7 +249,7 @@ header h3{
 
     .sectionright header hr {
         border: none;
-        border-top: 1px solid #8BC34A;
+        border-top: 1px solid #4DB6AC;
         margin: 0;
         width: 50px;
     }
@@ -251,19 +260,19 @@ header h3{
 
     .sectionright div:nth-child(2) hr {
         border: none;
-        border-top: 1px solid #8BC34A;
+        border-top: 1px solid #4DB6AC;
         margin: 2px;
     }
 
     .sectionright div:nth-child(3) hr {
         border: none;
-        border-top: 1px solid #8BC34A;
+        border-top: 1px solid #4DB6AC;
         margin: 2px;
     }
 
     .sectionright div:nth-child(4) hr {
         border: none;
-        border-top: 1px solid #8BC34A;
+        border-top: 1px solid #4DB6AC;
         margin: 2px;
     }
 
@@ -271,11 +280,11 @@ header h3{
         margin-right: 12px;
     }
     .sectionright .bordure{
-        border-bottom: 1px solid #8BC34A;
+        border-bottom: 1px solid #4DB6AC;
     }
 
     .coloruni {
-        color: #8BC34A;
+        color: #4DB6AC;
     }
 
     header {
@@ -293,7 +302,7 @@ header h3{
     }
 
     .sectionright svg {
-        color: #8BC34A;
+        color: #4DB6AC;
     }
 
     .emploi {
