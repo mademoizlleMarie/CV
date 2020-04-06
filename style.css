@@ -1,9 +1,12 @@
-@font-face{
+@font-face {
     font-family: 'Actionman';
-    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot') format('eot');
+    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot');
+    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
     url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
     url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
-    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.svg#webfont') format('svg');
+    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body
