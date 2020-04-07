@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Actionman';
-    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot');
-    src: url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
-    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
-    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
-    url('font/web fonts/actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-family: 'abhaya_libremedium';
+    src: url('font/abhaya/web fonts/abhayalibre_medium_macroman/AbhayaLibre-Medium-webfont.eot');
+    src: url('font/abhaya/web fonts/abhayalibre_medium_macroman/AbhayaLibre-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/abhaya/web fonts/abhayalibre_medium_macroman/AbhayaLibre-Medium-webfont.woff') format('woff'),
+    url('font/abhaya/web fonts/abhayalibre_medium_macroman/AbhayaLibre-Medium-webfont.ttf') format('truetype'),
+    url('font/abhaya/web fonts/abhayalibre_medium_macroman/AbhayaLibre-Medium-webfont.svg#abhaya_libremedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,10 +13,9 @@ body
 {
     border: 1px solid black;
     height: auto;
-    font-size: small;
-    font-family: 'Actionman',Arial, sans-serif;
+    font-family: 'abhaya_libremedium',Arial, sans-serif;
     max-width: 800px;
-     margin: auto;
+    margin: auto;
 }
 section
 {
@@ -33,7 +32,7 @@ main
 .sectionleft{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 40%;
     background-color: #4DB6AC;
 }
 
@@ -72,16 +71,20 @@ main
     display: flex;
     justify-content: space-evenly;
 }
-#loisirs div >svg{
+#loisirs div div{
     border: 1px solid black;
-    padding: 8px;
-    border-radius: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
+
 
 .sectionright{
     padding: 0 40px 30px 40px;
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .sectionright div h2{
@@ -109,6 +112,10 @@ main
 }
 .sectionright svg{
     margin-right: 12px;
+    color: #4DB6AC;
+}
+.sectionright .emploi svg {
+    margin-right: 2px;
 }
 .Nom .bordure{
     border-bottom: 1px solid #4DB6AC;
@@ -130,7 +137,7 @@ header h3{
 }
 header .photo{
     background-color:#4DB6AC;
-    width: 244px;
+    width: 40%;
     padding-top: 5%;
 }
 header .photo #photo{
@@ -146,11 +153,8 @@ header .photo #photo{
 }
 .Nom
 {
+    width: 60%;
     margin: 5% ;
-}
-
-.sectionright svg{
-    color: #4DB6AC;
 }
 .emploi {
     display: flex;
@@ -174,12 +178,10 @@ header .photo #photo{
 .recommandationGlobal{
     display: flex;
     justify-content: space-between;
-    width: 70%;
 }
 
 
 @media all and (max-width: 700px) {
-
     body
     {
         max-width: 700px;
@@ -192,11 +194,11 @@ header .photo #photo{
         padding: 2% 0 2% 0;
     }
     .Nom{
-        align-self: center;
-        margin: 2% 0 2% 0;
+        width: 100%;
     }
     .Nom h1{
         margin-top: 2%;
+        font-size: 2em;
     }
     main{
         flex-direction: column;
