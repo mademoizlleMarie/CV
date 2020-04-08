@@ -181,7 +181,7 @@ header .photo #photo{
 }
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
     body
     {
         max-width: 700px;
