@@ -17,7 +17,7 @@ body
     max-width: 800px;
     margin: auto;
 }
-section
+aside , article
 {
     padding-bottom: 10px;
 }
@@ -29,27 +29,27 @@ main
 {
     display: flex;
 }
-.sectionleft{
+aside{
     display: flex;
     flex-direction: column;
     width: 40%;
     background-color: #4DB6AC;
 }
 
-.sectionleft H2{
+aside H2{
     color: #4DB6AC;
     background-color: #424242;
     text-align: center;
     padding: 3px 0 3px 0;
 }
-.sectionleft ul
+aside ul
 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-right: 3px;
 }
-.sectionleft li
+aside li
 {
     list-style-type:none;
     margin: 5px 0 5px 0;
@@ -57,7 +57,7 @@ main
     flex-direction: column;
     justify-content: space-evenly;
 }
-.sectionleft p
+aside p
 {
     text-align: justify;
     padding: 0 40px 0 40px;
@@ -80,41 +80,41 @@ main
 }
 
 
-.sectionright{
+article{
     padding: 0 40px 30px 40px;
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
-.sectionright div h2{
+article div h2{
     margin-bottom: 0;
 }
-.sectionright div:nth-child(1) hr{
+article div:nth-child(1) hr{
     border: none;
     border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
-.sectionright div:nth-child(2) hr{
+article div:nth-child(2) hr{
     border: none;
     border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
-.sectionright div:nth-child(3) hr{
+article div:nth-child(3) hr{
     border: none;
     border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
-.sectionright div:nth-child(4) hr{
+article div:nth-child(4) hr{
     border: none;
     border-top: 1px solid #4DB6AC;
     margin: 2px;
 }
-.sectionright svg{
+article svg{
     margin-right: 12px;
     color: #4DB6AC;
 }
-.sectionright .emploi svg {
+article .experiencepro svg {
     margin-right: 2px;
 }
 .Nom .bordure{
@@ -156,20 +156,20 @@ header .photo #photo{
     width: 60%;
     margin: 5% ;
 }
-.emploi {
+.experiencepro , .formation {
     display: flex;
     margin-top: 15px;
 }
-.emploi .date{
+.experiencepro .date , .formation .date{
     display: flex;
     width: 33%;
     padding-top: 20px;
 }
-.emploi .detailemploi{
+.experiencepro .detailexperiencepro , .formation .detailformation {
     width: 67%;
     text-align: justify;
 }
-.emploi .date div {
+.experiencepro .date div , .formation .date div{
     margin-left: 5px;
 }
 .recommandation p{
@@ -210,15 +210,15 @@ header .photo #photo{
         border-radius: 75px;
     }
 
-    .sectionleft {
+    aside {
         width: auto;
     }
 
-    .sectionleft H2 {
+    aside H2 {
        margin-top: 0;
     }
 
-    .sectionright {
+    article {
         padding: 0 10px 30px 10px;
         width: auto;
     }
