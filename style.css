@@ -49,13 +49,15 @@ aside ul
     justify-content: space-evenly;
     padding-right: 3px;
 }
+
 aside li
 {
     list-style-type:none;
-    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0; /* modification*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    word-wrap: break-word;
 }
 aside p
 {
@@ -102,6 +104,10 @@ article .experiencepro svg {
 .Nom .bordure{
     border-bottom: 1px solid #4DB6AC;
 }
+.Nom H1,H3{
+    padding-left: 5%;
+}
+
 
 .coloruni{
     color: #4DB6AC;
@@ -126,7 +132,7 @@ header .photo #photo{
     width : 150px;
     height : 150px;
     border-radius : 75px;
-    margin: auto;
+    padding: auto; /*modification*/
     overflow:hidden;
 }
 #photo img{
@@ -136,7 +142,6 @@ header .photo #photo{
 .Nom
 {
     width: 60%;
-    margin: 5% ;
 }
 .experiencepro , .formation {
     display: flex;
